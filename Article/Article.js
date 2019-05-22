@@ -2,7 +2,7 @@
 
 class Article {
   constructor(domElement) {
-
+//parameter
     // assign this.domElement to the passed in domElement
 
     this.domElement = domElement;
@@ -46,5 +46,5 @@ class Article {
 let articles = document.querySelectorAll('.article');
 
 articles.forEach(article => {
-  new Article(article);
+  new Article(article); //argument
 });
